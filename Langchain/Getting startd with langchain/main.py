@@ -17,3 +17,5 @@ llm=OpenAI(temperature=0.8)
 
 if input_text:
     st.write(llm(input_text))
+
+# streamlit run main.py
